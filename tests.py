@@ -30,6 +30,11 @@ class TestCase(unittest.TestCase):
         expected = True
         self.assertTrue(check_pwd(pwd), expected)
 
+    def test5(self):
+        pwd = 'Th1$ist00longofapass'
+        expected = True
+        self.assertTrue(check_pwd(pwd), expected)
+
 
 if __name__ == '__main__':
     unittest.main()
