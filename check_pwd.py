@@ -1,3 +1,6 @@
 def check_pwd(pwd):
-    return True
+    if len(pwd) == 0:
+        return False
+    else:
+        return True
 
